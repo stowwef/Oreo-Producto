@@ -1,0 +1,129 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    background-color: #748cac;
+    font-family: lato;
+
+
+}
+
+.contenedor-caja {
+
+    width: 280px ;
+    height: 310px;
+    border-radius: 30px;
+    background-color: #b3c3e8;
+
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid #709edb;
+    box-shadow: 0px 0px 10px #246fbf;
+
+
+}
+
+.titulo, .imagen, .precio,.boton {
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.titulo {
+
+    color: #3884d6;
+    margin-left: 50px;
+
+}
+
+.precio {
+
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 170px;
+    color: #246fbf;
+
+
+}
+
+.imagen {
+
+    width: 140px;
+    margin-left: 60px;
+
+}
+
+.boton {
+
+    width: 100px;
+    height: 40px;
+    font-family: lato;
+    font-weight: 600;
+    color: #3b78c7;
+    border-radius: 15px;
+    border: 2px solid #3b82c5;
+    background-color: #7cb1e9;
+    cursor: pointer;
+
+    margin-left: 150px;
+
+}
+
+.boton:hover {
+
+    background-color: #7eb7f1da;
+
+}
+
+.label1 {
+
+    color: #246fbf;
+    font-weight: bold;
+
+}
+
+.input1 {
+
+    width: 35px;
+    background-color: #d6e3f2;
+    border: 3px solid #3b82c5;
+    border-radius: 5px;
+
+
+}
+
+.contenedor-cant {
+
+    position: absolute;
+
+}
+
+.label1, .input1 {
+
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+
+}
+
+input[type="number"] {
+
+   color: #246fbf;
+   outline: none;
+   text-align: center;
+
+
+}
+
+.input1:focus {
+
+    box-shadow: 0px 0px 10px #89b0f8 inset;
+
+
+}
